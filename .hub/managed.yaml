@@ -1,0 +1,66 @@
+parameters:
+  - name: application.description
+    value: Python Flask Web Service application
+  - name: application.humanName
+    value: 'Hello World '
+  - name: application.ingress
+    value: hello-world.app.swift-base-acm.swift-asi-poc.superhub.io
+  - name: application.name
+    value: hello-world
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: author.email
+    value: swift.support@agilestacks.io
+  - name: author.id
+    value: 00u53bb5n07Fln6UT2p7
+  - name: author.name
+    value: Swift Support
+  - name: author.organization
+    value: SWIFT
+  - name: component.dex.okta.appId
+    value: 0oa5endifgnHBni3Y2p7
+  - name: component.dex.okta.clientId
+    value: 0oa5endifgnHBni3Y2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.docker.auth.basic.username
+    value: admin
+  - name: component.docker.auth.host
+    value: swift-ml-ov-harbor.svc.swift-base-acm.swift-asi-poc.superhub.io
+  - name: component.docker.registry.image
+    value: >-
+      swift-ml-ov-harbor.svc.swift-base-acm.swift-asi-poc.superhub.io/library/hello-world
+  - name: component.docker.registry.kind
+    value: harbor
+  - name: component.docker.registry.url
+    value: swift-ml-ov-harbor.svc.swift-base-acm.swift-asi-poc.superhub.io/library
+  - name: component.github.repository.name
+    value: hello-world
+  - name: component.github.repository.organization
+    value: sol-demos-03
+outputs:
+  - name: application.description
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.docker.auth.basic.username
+  - name: component.docker.auth.host
+  - name: component.docker.registry.image
+  - name: component.docker.registry.kind
+  - name: component.docker.registry.url
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
